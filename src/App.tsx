@@ -1,4 +1,4 @@
-﻿import FeatureSection from "./FeatureSection";
+﻿import FeatureSection from "./featureSection";
 function App() {
     return (
         <div>
