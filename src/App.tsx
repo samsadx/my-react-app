@@ -1,11 +1,4 @@
 ﻿import FeatureSection from "./featureSection";
-function App() {
-    return (
-        <div>
-            <FeatureSection />
-        </div>
-    );
-}
 import { useState } from "react";
 
 function VideoInput() {
@@ -114,4 +107,14 @@ function VideoInput() {
         </div>
     );
 }
+
+function App() {
+    return (
+        <div>
+            <FeatureSection />
+            <VideoInput />
+        </div>
+    );
+}
+
 export default App;
