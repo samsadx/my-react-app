@@ -48,8 +48,10 @@ export default function App() {
                     transition={{ duration: 0.4 }}
                 >
                     <input {...getInputProps()} />
-                    <p className="text-center px-4 text-blue-500 font-semibold text-lg hover:text-blue-700 transition-colors duration-200">
-                        {isDragActive ? "Drop your video here 🎬" : "Drag & Drop or Click to Upload Video"}
+                    <p
+                        className="text-center px-6 py-3 mt-4 font-bold text-white bg-blue-600 rounded-lg shadow-lg cursor-pointer hover:bg-blue-700 transition-all duration-300"
+                    >
+                        🎥 Upload Video (Drag & Drop or Click)
                     </p>
                 </motion.div>
             ) : (
